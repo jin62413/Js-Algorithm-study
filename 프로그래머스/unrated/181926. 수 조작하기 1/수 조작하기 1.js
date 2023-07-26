@@ -10,7 +10,7 @@ function solution(n, control) {
         } else if(item === 'a') {
             n -= 10;
         }
-        return n;
+
     })
     return n;
 }
