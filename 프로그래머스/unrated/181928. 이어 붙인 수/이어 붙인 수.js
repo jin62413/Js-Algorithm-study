@@ -1,5 +1,4 @@
 function solution(num_list) {
-    var answer = 0;
     let odd = [];
     let even = [];
     num_list.forEach(function(item){
