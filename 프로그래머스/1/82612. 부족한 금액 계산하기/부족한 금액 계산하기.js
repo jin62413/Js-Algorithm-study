@@ -5,11 +5,7 @@ function solution(price, money, count) {
     for(let i = 1; i <= count; i++) {
         need += price * i;
     }
-    if (need > money) {
-        answer = need - money;
-    } else {
-        answer = 0;
-    }
+    answer = need > money ? need - money : 0;
 
     return answer;
 }
